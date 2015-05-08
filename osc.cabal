@@ -7,7 +7,7 @@ license-file: LICENSE
 copyright: (c) Gabriel Pickl
 maintainer: Gabriel Pickl <peacemotion@gmail.com>
 stability: unstable
-homepage: http://www.haskell.org//
+homepage: https://github.com/peacememories/haskell-osc
 bug-reports: mailto:peacemotion@gmail.com
 synopsis: A library to handle messages in the OSC protocol
 description: This library allows users to parse and write OSC (Open Sound Control) messages.
