@@ -19,19 +19,10 @@ data-dir: ""
 source-repository head
     type: git
     location: https://github.com/peacememories/haskell-osc.git
- 
-flag threaded
-    Default: False
- 
 library
     build-depends: base >=4.2 && <5, attoparsec ==0.12.*,
                    binary ==0.7.*, bytestring ==0.10.*, data-binary-ieee754 ==0.4.*,
                    network ==2.6.*
-     
-    if flag(threaded)
-        exposed: True
-        buildable: True
-        ghc-options: -threaded
     exposed-modules: Sound.OSC Sound.OSC.Parser
     exposed: True
     buildable: True
